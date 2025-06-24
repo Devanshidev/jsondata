@@ -11,6 +11,19 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-pn: 130px;
+  --breakpoint-vs: 200px;
+  --breakpoint-ss: 360px;
+  --breakpoint-pp: 500px;
+  --breakpoint-sm: 821px;
+  --breakpoint-md: 1180px;
+  --breakpoint-lg: 1440px;
+  --breakpoint-xl: 1536px;
+  --breakpoint-txl: 1600px;
+
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
